@@ -1024,13 +1024,13 @@ img {
 
 /*  content  */
 
-.content__cards-item {
+.content__list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
 }
 
-.content__card {
+.content__item {
 	list-style: none;
 	flex-basis: calc((100% - 30px * 2) / 3);
 
