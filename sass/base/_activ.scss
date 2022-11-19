@@ -1,0 +1,12 @@
+.active {
+	border-radius: 4px;
+	color: var(--title-text-color);
+
+	transition: background-color var(--transition-ms-cubic),
+		color var(--transition-ms-cubic);
+
+	&:focus,
+	&:hover {
+		color: var(--accent-color);
+	}
+}

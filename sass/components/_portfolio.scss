@@ -1,0 +1,16 @@
+.portfolio__list {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	list-style: none;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+
+	gap: 8px;
+}
+
+.portfolio__item {
+	text-align: center;
+}

@@ -1,0 +1,159 @@
+.hero__btn {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+
+	width: 216px;
+	height: 50px;
+	min-width: 216px;
+	padding: 0;
+	margin: auto;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+
+	background-color: var(--accent-color);
+	color: var(--white-color);
+
+	font-family: inherit;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	text-decoration: none;
+
+	transition: background-color var(--transition-ms-cubic);
+
+	&:focus,
+	&:hover {
+		background-color: var(--accent-colot-hero);
+	}
+}
+
+.subscribe__btn {
+	display: block;
+
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+
+	display: flex;
+	padding-left: 28px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+	background-color: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	border: none;
+	color: var(--white-color);
+	cursor: pointer;
+	transition: background-color var(--transition-ms-cubic);
+
+	&:hover,
+	&:focus {
+		background-color: var(--accent-colot-hero);
+	}
+}
+
+.subscribe__btn-icon {
+	margin-left: 10px;
+	margin-right: 28px;
+	fill: var(--white-color);
+}
+
+.modal__close-btn {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 30px;
+	height: 30px;
+	padding: 0;
+
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+
+	background-color: transparent;
+	cursor: pointer;
+	transition: fill var(--transition-ms-cubic);
+
+	&:hover,
+	&:focus {
+		fill: var(--accent-color);
+	}
+}
+
+.modal__btn {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 52px;
+
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	color: var(--white-color);
+
+
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+
+	cursor: pointer;
+	border-radius: 4px;
+	background-color: var(--accent-color);
+	border: none;
+	transition: background-color var(--transition-ms-cubic),
+		box-shadow var(--transition-ms-cubic);
+
+	&:hover,
+	&:focus {
+		background-color: var(--accent-colot-hero);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	}
+}
+
+.portfolio__btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 22px;
+	padding-right: 22px;
+
+	font-family: inherit;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+
+	transition: background-color var(--transition-ms-cubic),
+		box-shadow var(--transition-ms-cubic);
+
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+		color: var(--white-color);
+		box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	}
+}
+
+.active__btn {
+	border-radius: 4px;
+	color: var(--title-text-color);
+
+	transition: background-color var(--transition-ms-cubic),
+		color var(--transition-ms-cubic);
+}

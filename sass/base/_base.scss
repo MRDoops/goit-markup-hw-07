@@ -1,0 +1,13 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: var(--primary-text-color);
+	background-color: var(--white-color);
+	font-size: 14px;
+	letter-spacing: 0.03em;
+}
+
+.is-hidden {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
